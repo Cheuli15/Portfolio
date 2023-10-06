@@ -567,6 +567,9 @@ footer{
   /* .nav-bar-container{
     position: relative;
   } */
+  .nav-bar{
+    overflow-x: hidden;
+  }
   .nav-bar-links{
     display: flex;
     flex-direction: column;
