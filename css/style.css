@@ -16,17 +16,11 @@
   --main-color: #FEE715;  
   --text-color:  #101820;
 }
-/* body{
-  background-color: var(--text-color);
-} */
-/* .main{
-  position: relative;
-} */
+
 .container{
   height: 100%;
   width: 90%;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
 /* navigation bar */
@@ -47,7 +41,6 @@
 .nav-bar-logo img{
   width: 30px;
   height: 30px;
-  /* filter: grayscale(100%); */
 }
 .nav-bar-logo h2{
   font-size: 1.3em;
@@ -96,10 +89,6 @@
   align-items: center;
   overflow: hidden;
 }
-/* .fp-col1{
-  height: 50%;
-  border: 2px solid red;
-} */
 .fp-col1 h3{
   font-size: 1.6em;
   font-weight: 600;  
@@ -199,7 +188,6 @@ hr.page-break{
 }
 .sp-sub-container hr{
   margin-right: 4%;
-  /* width: 15vw; */
   flex-basis: 10%;
   height: 0;
   border: none;
@@ -207,7 +195,6 @@ hr.page-break{
   border-radius: 10px;
 }
 .sp-sub-container p{
-  /* width: 60vw; */
   flex-basis: 70%;
   font-size: 1em;
   font-weight: 400;
@@ -390,7 +377,6 @@ hr.page-break{
 .fpl-work-experience h3{
   font-size: 1.1em;
   font-weight: 400;
-  /* line-height: 1.5; */
 }
 .fpl-work-experience h5{
   font-size: 0.8em;
@@ -531,14 +517,14 @@ footer{
 
 /* media Query for mobile view*/
 @media (max-width: 815px) {
-  html{
-    overflow-x: hidden;
+  main{
+    overflow: hidden;
+    position: relative;
   }
   .container{
     height: 100%;
     width: 100%;
     padding: 0 2%;
-    /* border: 1px solid red; */
   }
   .menu {
     display: inline-block;
@@ -564,12 +550,8 @@ footer{
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
-  /* .nav-bar-container{
+  .nav-bar-container{
     position: relative;
-  } */
-  .nav-bar{
-    position: relative;
-    overflow-x: hidden;
   }
   .nav-bar-links{
     display: flex;
@@ -579,17 +561,14 @@ footer{
     width: 40vw;
     margin-top: 30px;
     position: absolute;
-    z-index: 2;
     top: 35px;
     right: -100%;
     background-color: var(--main-color);
     color: var(--text-color);
-    /* overflow-x: hidden; */
     transition: 0.5s;
     padding: 10px 0; 
   }
   .active{
-    /* width: 20vw; */
     right: 0;
   }
   .nav-bar-links a{
@@ -615,7 +594,6 @@ footer{
     width: 100%;
   }
   .fp-col2 img{
-    /* border: 2px solid red; */
     width: inherit;
     height: 80vh;
     margin: 0 auto;
