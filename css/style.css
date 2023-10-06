@@ -568,6 +568,7 @@ footer{
     position: relative;
   } */
   .nav-bar{
+    position: relative;
     overflow-x: hidden;
   }
   .nav-bar-links{
