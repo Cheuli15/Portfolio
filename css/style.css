@@ -169,12 +169,12 @@ hr.page-break{
 
 /* second page */
 .second-page{
-  height: 35vh;
+  min-height: 100px;
   background-color: var(--minor-color);
   color: var(--text-color);
 }
 .sp-container{
-  padding-top: 5%;
+  padding: 5% 0;
   width: 80%;
 }
 .sp-container h2{
