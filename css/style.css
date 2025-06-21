@@ -128,7 +128,8 @@
 }
 .fp-col2 img{
   margin-top: 4%;
-  width: 36vw;
+  /* width: 36vw; */
+  width: auto;
   height: 83vh;
   filter: grayscale(0.75);
 }
